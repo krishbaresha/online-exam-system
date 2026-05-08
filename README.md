@@ -88,8 +88,8 @@ npm run dev
 | Field | Value |
 |-------|-------|
 | **Role** | Admin |
-| **ID** | `admin` |
-| **Password** | `admin123` |
+| **ID** | `*****` |
+| **Password** | `****` |
 
 ### Student Access
 Students log in using their **CNIC** as ID and **Roll Number** as password.
@@ -98,7 +98,7 @@ Example:
 | Field | Value |
 |-------|-------|
 | **Role** | Student |
-| **ID** | `4250170961185` |
+| **ID** | `4146179761389` |
 | **Password** | `BSMTH-2026-001` |
 
 > 💡 The full student list is loaded from `data.json` on first boot. All 35+ students will be available immediately.
@@ -125,14 +125,14 @@ You can import students in bulk using JSON. Paste this format in the Bulk Upload
 ```json
 [
   {
-    "name": "Muhammad Talha Rana",
-    "roll_no": "BSMTH-2026-001",
-    "cnic": "4250170961185"
+    "name": "Krish Baresha",
+    "roll_no": "CS-CSE-70",
+    "cnic": "xxxxx-xxxxxxx-x"
   },
   {
-    "name": "Abdul Hadi",
-    "roll_no": "BSMTH-2026-005",
-    "cnic": "4170107431849"
+    "name": "Krish Baresha",
+    "roll_no": "CS-xxxx-xxxx",
+    "cnic": "xxxxx-xxxxxxx-x"
   }
 ]
 ```
